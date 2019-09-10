@@ -1,0 +1,3 @@
+1. It returns the first vowel of your name in the form of a string.
+2. I would say the exclamation point at the end of firstVowel! makes the most sense. Least amount of code
+3. You would need an if/else statement chekcing if you have any vowels in your name. If you don't then the code ends.
