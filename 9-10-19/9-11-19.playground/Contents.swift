@@ -1,0 +1,3 @@
+func square(_: Int) {
+    
+}
