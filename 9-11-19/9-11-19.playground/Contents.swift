@@ -20,9 +20,14 @@ func shout(input: String) -> String {
 }
 print(shout(input: "Money"))
 
-func numberName(num: Int) -> String {
+func numberName(num: Int) -> String? {
 //    let singleDigits = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     let letters = ["zero","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
-    return letters[num]
+    if num <= 9 {
+         return letters[num]
+    }
+    else {
+        return nil
+    }
 }
-print(numberName(num: 5))
+print(numberName(num: 10))
