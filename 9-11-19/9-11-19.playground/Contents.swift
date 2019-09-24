@@ -30,4 +30,4 @@ func numberName(num: Int) -> String? {
         return nil
     }
 }
-print(numberName(num: 10))
+print(numberName(num: 6))
