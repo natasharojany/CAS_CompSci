@@ -34,6 +34,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="7eQ-bT-X7C"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-12" translatesAutoresizingMaskIntoConstraints="NO" id="tHO-2Z-m5d">
+                                <rect key="frame" x="20" y="449" width="364" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yvU-pO-jXP"/>
@@ -41,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TDs-lB-nxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2053.6231884057975" y="133.92857142857142"/>
+            <point key="canvasLocation" x="-2055.072463768116" y="133.92857142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rGC-mp-097">
@@ -76,6 +80,10 @@
                                     <segue destination="kQT-vb-cE4" kind="show" id="dax-Kk-DBf"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-11" translatesAutoresizingMaskIntoConstraints="NO" id="8cp-GZ-3n4">
+                                <rect key="frame" x="54" y="483" width="304" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="m7T-yC-ha6"/>
@@ -109,6 +117,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="FWn-Un-tQG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-6" translatesAutoresizingMaskIntoConstraints="NO" id="EgP-iY-ZCF">
+                                <rect key="frame" x="63" y="412" width="288" height="273"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fAf-xn-BfX"/>
@@ -116,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfv-UY-L9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1273" y="771"/>
+            <point key="canvasLocation" x="-1273.913043478261" y="770.75892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HhV-cp-6qD">
@@ -152,6 +164,10 @@
                                     <segue destination="Y57-zY-0f8" kind="show" id="i6j-8j-Lbw"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="VBU-HQ-maq">
+                                <rect key="frame" x="58" y="475" width="294" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="S6H-Uv-Zgz"/>
@@ -172,7 +188,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHH-cO-WVz">
                                 <rect key="frame" x="20" y="51" width="349" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">You are journing through the artic tundra when an unexpected blizzard begins to sweep towards you. You see a wooded area to your right and a road that looks to lead behind a mountain. Do you want to take the road or go to the trees?</string>
+                                <string key="text">You are journeying through the artic tundra when an unexpected blizzard begins to sweep towards you. You see a wooded area to your right and a road that looks to lead behind a mountain. Do you want to take the road or go to the trees?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -195,6 +211,10 @@
                                     <segue destination="5q7-J3-bCM" kind="show" id="VAg-gb-T5N"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="4vG-41-Qc2">
+                                <rect key="frame" x="79" y="530" width="256" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -228,6 +248,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-8" translatesAutoresizingMaskIntoConstraints="NO" id="bQV-Yc-fiH">
+                                <rect key="frame" x="55" y="395" width="289" height="377"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Kk0-mG-lZN"/>
@@ -235,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VLe-Be-k8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="-567"/>
+            <point key="canvasLocation" x="-562.31884057971024" y="-567.1875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7XP-Z1-pGC">
@@ -261,6 +285,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Twb-OM-dN6"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-3" translatesAutoresizingMaskIntoConstraints="NO" id="5gO-6b-uwO">
+                                <rect key="frame" x="41" y="516" width="306" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cBh-6h-uQ5"/>
@@ -268,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eu1-jm-f0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="-567"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-567.1875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5uv-0I-whv">
@@ -304,6 +332,10 @@
                                     <segue destination="Bat-rh-Z1T" kind="show" id="DyL-AG-4rC"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ycdeercave1407" translatesAutoresizingMaskIntoConstraints="NO" id="zfC-9k-NRm">
+                                <rect key="frame" x="51" y="546" width="282" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2NF-Wb-taw"/>
@@ -311,7 +343,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whK-RL-d3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="861" y="-558"/>
+            <point key="canvasLocation" x="860.86956521739137" y="-558.48214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EeW-D5-9y4">
@@ -347,6 +379,10 @@
                                     <segue destination="DGH-kw-R49" kind="show" id="CJC-Yv-IBC"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="046-breathing" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-r1-AQ7">
+                                <rect key="frame" x="51" y="560" width="321" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kE4-2j-kfo"/>
@@ -364,13 +400,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The cold gets to be too much. You die of hypothermia." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doG-y4-5Xl">
-                                <rect key="frame" x="22" y="98" width="372" height="251"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkb-wr-JF6">
                                 <rect key="frame" x="138" y="417" width="138" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -380,6 +409,17 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="n7M-K8-rq5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The cold gets to be too much. You die of hypothermia." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doG-y4-5Xl">
+                                <rect key="frame" x="22" y="98" width="372" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-7" translatesAutoresizingMaskIntoConstraints="NO" id="6kq-iJ-kIQ">
+                                <rect key="frame" x="64" y="507" width="287" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ODz-wW-WN7"/>
@@ -423,6 +463,14 @@
                                     <segue destination="8TX-Zn-EXm" kind="show" id="2pj-Gw-TVQ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-9" translatesAutoresizingMaskIntoConstraints="NO" id="eoX-3P-LNa">
+                                <rect key="frame" x="184" y="421" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-10" translatesAutoresizingMaskIntoConstraints="NO" id="Bn7-yE-5ER">
+                                <rect key="frame" x="20" y="421" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eOf-Uz-QGt"/>
@@ -466,6 +514,10 @@
                                     <segue destination="qS6-bu-BZ7" kind="show" id="P14-4Y-Ibd"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-2" translatesAutoresizingMaskIntoConstraints="NO" id="NZC-cD-wt4">
+                                <rect key="frame" x="61" y="484" width="286" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EdH-nK-BX2"/>
@@ -473,7 +525,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZb-mr-5ac" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1566" y="112"/>
+            <point key="canvasLocation" x="1565.217391304348" y="111.83035714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Pd-WD-GXz">
@@ -500,6 +552,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="fm1-gR-dSs"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-5" translatesAutoresizingMaskIntoConstraints="NO" id="wsZ-1T-DhV">
+                                <rect key="frame" x="66" y="492" width="283" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="w5b-WH-Uq9"/>
@@ -510,9 +566,25 @@
             <point key="canvasLocation" x="2302.898550724638" y="111.83035714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="046-breathing" width="800" height="478"/>
+        <image name="download" width="300" height="168"/>
+        <image name="download-1" width="263" height="192"/>
+        <image name="download-10" width="248" height="203"/>
+        <image name="download-11" width="194" height="259"/>
+        <image name="download-12" width="278" height="181"/>
+        <image name="download-2" width="266" height="180"/>
+        <image name="download-3" width="272" height="185"/>
+        <image name="download-5" width="225" height="225"/>
+        <image name="download-6" width="271" height="186"/>
+        <image name="download-7" width="276" height="183"/>
+        <image name="download-8" width="297" height="170"/>
+        <image name="download-9" width="225" height="225"/>
+        <image name="ycdeercave1407" width="780" height="520"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Xe2-hb-Q39"/>
+        <segue reference="CJC-Yv-IBC"/>
         <segue reference="10K-Z1-cBi"/>
-        <segue reference="n7M-K8-rq5"/>
+        <segue reference="7eQ-bT-X7C"/>
     </inferredMetricsTieBreakers>
 </document>
