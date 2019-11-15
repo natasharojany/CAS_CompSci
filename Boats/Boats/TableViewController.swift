@@ -2,8 +2,8 @@
 //  TableViewController.swift
 //  Boats
 //
-//  Created by Dani Lubezki on 11/8/19.
-//  Copyright © 2019 Dani Lubezki. All rights reserved.
+// Created by Lance Davenport on 11/14/19.
+//  Copyright © 2019 Lance Davenport. All rights reserved.
 //
 
 import UIKit
