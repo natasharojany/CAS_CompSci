@@ -44,7 +44,9 @@ class TableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "note", for: indexPath)
         //let list = Array(vocab.keys)
-        cell.textLabel?.text =  notes[indexPath.row].note
+      
+        let currentNote = notes[indexPath.row]
+        cell.textLabel?.text = "\(currentNote.date)" + currentNote.note
         return cell
     }
     
