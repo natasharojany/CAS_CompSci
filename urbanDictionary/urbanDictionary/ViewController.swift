@@ -30,13 +30,9 @@ class ViewController: UIViewController {
     @IBAction func addWords(_ sender: UIButton) {
         if let oldWords:[[String : String]] = getJsonData() as [[String:String]]? {
             if let oldJson = try? JSONSerialization.data(withJSONObject: oldWords, options: []) {
-
-
-                // add old words to JSON file
-                
+                // Add old words to JSON file
             }
         }
-        // Commented out code was stuff paul was helping me with today. Didn't get to finish
         let data: [String:String] = [
             "Name": nameField.text ?? "N/A",
             "Part of Speech": posField.text ?? "N/A",
@@ -45,7 +41,7 @@ class ViewController: UIViewController {
         ]
         let url = fileUrl()
         if let jsonData = try? JSONSerialization.data(withJSONObject: data, options: []) {
-            // Append data into
+            // Append data into JSON file
             print(data)
             nameField.text = ""
             defView.text = ""
@@ -64,7 +60,7 @@ class ViewController: UIViewController {
                 return dictionary
             }
         }
-    } // Missing return in a function expected to return '[[String : String]]?'
+    } // Missing return in a function expected to return '[[String : String]]?' error
     
     
     @IBAction func loadData(_ sender: UIButton) {
