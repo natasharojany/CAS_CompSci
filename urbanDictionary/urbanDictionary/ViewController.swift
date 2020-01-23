@@ -28,17 +28,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addWords(_ sender: UIButton) {
-        if let oldWords:[[String:String]]? = getJsonData() as [[String:String]]? {
-            let oldJson =  try? JSONSerialization.data(withJSONObject: oldWords, options: []) {
-                if oldWords == nil {
-                    return []
-                }
-                else if oldWords != nil {
-                     try! fileUrl().append(oldWords)
-                }
+        if let oldWords:[[String : String]] = getJsonData() as [[String:String]]? {
+            if let oldJson = try? JSONSerialization.data(withJSONObject: oldWords, options: []) {
+
+
+                // add old words to JSON file
+                
             }
-       }
-      // Commented out code was stuff paul was helping me with today. Didn't get to finish
+        }
+        // Commented out code was stuff paul was helping me with today. Didn't get to finish
         let data: [String:String] = [
             "Name": nameField.text ?? "N/A",
             "Part of Speech": posField.text ?? "N/A",
@@ -47,18 +45,17 @@ class ViewController: UIViewController {
         ]
         let url = fileUrl()
         if let jsonData = try? JSONSerialization.data(withJSONObject: data, options: []) {
-            try! fileUrl().append(data)
+            // Append data into
             print(data)
             nameField.text = ""
             defView.text = ""
             posField.text = ""
-            // Decode data first then write back to it
         } else {
             print("Failed to save")
         }
     }
     
-    func getJsonData() -> Any{
+    func getJsonData() -> [[String:String]]? {
         let url = fileUrl()
         let responseData: Data? = try! Data(contentsOf: url)
         if let responseData = responseData {
@@ -67,37 +64,37 @@ class ViewController: UIViewController {
                 return dictionary
             }
         }
-}
-
-
-@IBAction func loadData(_ sender: UIButton) {
-    let url = fileUrl()
-    let responseData: Data? = try! Data(contentsOf: url)
-    if let responseData = responseData {
-        let json: Any? = try? JSONSerialization.jsonObject(with: responseData, options: [])
-        if let json = json {
-            let dictionary: [String: Any]? = json as? [String: Any]
-            if let dictionary = dictionary {
-                for names in dictionary {
-                    let name: String = dictionary["Name"] as! String
-                    let definition: String = dictionary["Definition"] as! String
-                    let pos: String = dictionary["Part of Speech"] as! String
-                    print(name, definition, pos)
-                    textView.text = ("Name: \(name) (\(pos))\n Definition: \(definition)\n ")
+    } // Missing return in a function expected to return '[[String : String]]?'
+    
+    
+    @IBAction func loadData(_ sender: UIButton) {
+        let url = fileUrl()
+        let responseData: Data? = try! Data(contentsOf: url)
+        if let responseData = responseData {
+            let json: Any? = try? JSONSerialization.jsonObject(with: responseData, options: [])
+            if let json = json {
+                let dictionary: [String: Any]? = json as? [String: Any]
+                if let dictionary = dictionary {
+                    for names in dictionary {
+                        let name: String = dictionary["Name"] as! String
+                        let definition: String = dictionary["Definition"] as! String
+                        let pos: String = dictionary["Part of Speech"] as! String
+                        print(name, definition, pos)
+                        textView.text = ("Name: \(name) (\(pos))\n Definition: \(definition)\n ")
+                    }
                 }
             }
         }
     }
-}
-
-
-
-@IBAction func clearData(_ sender: UIButton) {
-    let url = fileUrl()
-    try? FileManager.default.removeItem(at:url)
-    textView.text = ""
-}
-
-
+    
+    
+    
+    @IBAction func clearData(_ sender: UIButton) {
+        let url = fileUrl()
+        try? FileManager.default.removeItem(at:url)
+        textView.text = ""
+    }
+    
+    
 }
 
