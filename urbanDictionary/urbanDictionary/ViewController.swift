@@ -102,7 +102,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     @IBAction func clearData(_ sender: UIButton) {
         let url = fileUrl()
         try? FileManager.default.removeItem(at:url)

@@ -32,7 +32,8 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="All words:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nQI-Ju-U9G">
                                 <rect key="frame" x="20" y="521" width="374" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.34140694141387939" green="0.35189783573150635" blue="0.41177338361740112" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -129,6 +130,7 @@
                                 <connections>
                                     <action selector="addWords:" destination="0B4-Wm-s17" eventType="touchUpInside" id="A5d-KR-z72"/>
                                     <action selector="addWords:" destination="RkG-Tl-31R" eventType="touchUpInside" id="QzR-Id-Swh"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="4zb-M6-nUk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG0-5h-YuV">
@@ -182,4 +184,8 @@
     <resources>
         <image name="Urban-Dictionary-logo-300x141" width="300" height="141"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="FgX-fu-S7U"/>
+        <segue reference="4zb-M6-nUk"/>
+    </inferredMetricsTieBreakers>
 </document>
