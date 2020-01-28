@@ -74,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="114.50892857142857"/>
+            <point key="canvasLocation" x="1014" y="115"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Ev-K1-iMV">
@@ -130,7 +130,6 @@
                                 <connections>
                                     <action selector="addWords:" destination="0B4-Wm-s17" eventType="touchUpInside" id="A5d-KR-z72"/>
                                     <action selector="addWords:" destination="RkG-Tl-31R" eventType="touchUpInside" id="QzR-Id-Swh"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="4zb-M6-nUk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG0-5h-YuV">
@@ -160,7 +159,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mdx-zg-aej" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="RkG-Tl-31R" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1689.8550724637682" y="109.82142857142857"/>
+            <point key="canvasLocation" x="1857" y="115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VJi-Ze-bvi">
@@ -184,8 +183,4 @@
     <resources>
         <image name="Urban-Dictionary-logo-300x141" width="300" height="141"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="FgX-fu-S7U"/>
-        <segue reference="4zb-M6-nUk"/>
-    </inferredMetricsTieBreakers>
 </document>
