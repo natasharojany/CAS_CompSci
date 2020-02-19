@@ -20,6 +20,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Easy"/>
                                 <connections>
+                                    <action selector="easyButton:" destination="vVq-cq-evv" eventType="touchUpInside" id="2pr-SD-9RM"/>
                                     <segue destination="Fry-k2-xli" kind="show" id="7Gl-fC-xQh"/>
                                 </connections>
                             </button>
@@ -28,7 +29,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Medium"/>
                                 <connections>
-                                    <segue destination="Xbp-Sy-jgq" kind="show" id="UgJ-IC-CPB"/>
+                                    <segue destination="Fry-k2-xli" kind="show" id="JI6-Js-iI1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zag-KH-art">
@@ -36,7 +37,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Hard"/>
                                 <connections>
-                                    <segue destination="MOr-ss-KMB" kind="show" id="nDF-S1-hiY"/>
+                                    <segue destination="Fry-k2-xli" kind="show" id="k7e-Bc-1Yz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,8 +61,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="x3N-Jj-iJy"/>
+                    <connections>
+                        <outlet property="easyButton" destination="bhC-My-QXV" id="bGi-ZC-t11"/>
+                        <outlet property="hardButton" destination="Zag-KH-art" id="RZ6-ve-Qca"/>
+                        <outlet property="mediumButton" destination="uBV-jj-XJf" id="nAd-4A-Mo8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="vVq-cq-evv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="114.50892857142857"/>
         </scene>
@@ -99,74 +106,6 @@
             </objects>
             <point key="canvasLocation" x="1755.072463768116" y="114.50892857142857"/>
         </scene>
-        <!--Medium Number View Controller-->
-        <scene sceneID="zhz-g1-Itr">
-            <objects>
-                <viewController id="Xbp-Sy-jgq" customClass="mediumNumberViewController" customModule="numberGuesser" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oK9-dO-Zad">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pb-75-b0W">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gwI-sz-Gfs">
-                                        <rect key="frame" x="8" y="0.0" width="406" height="808"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </stackView>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="ObB-a8-Lg3"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="uc3-AP-pQP"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="NWU-j8-6Y9"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="YYP-GY-IpE"/>
-                    <connections>
-                        <outlet property="scrollView" destination="6pb-75-b0W" id="KtE-wm-xaj"/>
-                        <outlet property="stackView" destination="gwI-sz-Gfs" id="gA5-BS-87y"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Dn-c6-Hbi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2434.7826086956525" y="119.86607142857142"/>
-        </scene>
-        <!--Hard Number View Controller-->
-        <scene sceneID="1tv-8s-7E8">
-            <objects>
-                <viewController id="MOr-ss-KMB" customClass="hardNumberViewController" customModule="numberGuesser" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YlR-sW-MtW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uB2-9b-MiB">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-PR-hkm">
-                                        <rect key="frame" x="8" y="0.0" width="398" height="808"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </stackView>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="fsW-8x-bYT"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ZMQ-My-koi"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Owa-Ak-6He"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="1t2-V6-lwS"/>
-                    <connections>
-                        <outlet property="scrollView" destination="uB2-9b-MiB" id="Lpx-Cp-V5h"/>
-                        <outlet property="stackView" destination="CI8-PR-hkm" id="cPq-el-aJC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DSs-9I-odh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3211.594202898551" y="123.88392857142857"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ciE-6S-1uL">
             <objects>
@@ -186,4 +125,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="k7e-Bc-1Yz"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E0DF65723FC9EE50079F0A6 /* mediumNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DF65623FC9EE50079F0A6 /* mediumNumberViewController.swift */; };
-		7E0DF65923FC9FBB0079F0A6 /* hardNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DF65823FC9FBB0079F0A6 /* hardNumberViewController.swift */; };
 		7EA90D0623FC8F4700DE3936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA90D0523FC8F4700DE3936 /* AppDelegate.swift */; };
 		7EA90D0823FC8F4700DE3936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA90D0723FC8F4700DE3936 /* SceneDelegate.swift */; };
 		7EA90D0A23FC8F4700DE3936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA90D0923FC8F4700DE3936 /* ViewController.swift */; };
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E0DF65623FC9EE50079F0A6 /* mediumNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediumNumberViewController.swift; sourceTree = "<group>"; };
-		7E0DF65823FC9FBB0079F0A6 /* hardNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardNumberViewController.swift; sourceTree = "<group>"; };
 		7EA90D0223FC8F4700DE3936 /* numberGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numberGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA90D0523FC8F4700DE3936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA90D0723FC8F4700DE3936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,12 +101,10 @@
 		7EA90D0423FC8F4700DE3936 /* numberGuesser */ = {
 			isa = PBXGroup;
 			children = (
+				7EA90D0B23FC8F4700DE3936 /* Main.storyboard */,
 				7EA90D0523FC8F4700DE3936 /* AppDelegate.swift */,
 				7EA90D0723FC8F4700DE3936 /* SceneDelegate.swift */,
 				7EA90D0923FC8F4700DE3936 /* ViewController.swift */,
-				7EA90D0B23FC8F4700DE3936 /* Main.storyboard */,
-				7E0DF65823FC9FBB0079F0A6 /* hardNumberViewController.swift */,
-				7E0DF65623FC9EE50079F0A6 /* mediumNumberViewController.swift */,
 				7EA90D3523FC912600DE3936 /* numberViewController.swift */,
 				7EA90D0E23FC8F4900DE3936 /* Assets.xcassets */,
 				7EA90D1023FC8F4900DE3936 /* LaunchScreen.storyboard */,
@@ -268,9 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0DF65723FC9EE50079F0A6 /* mediumNumberViewController.swift in Sources */,
 				7EA90D0A23FC8F4700DE3936 /* ViewController.swift in Sources */,
-				7E0DF65923FC9FBB0079F0A6 /* hardNumberViewController.swift in Sources */,
 				7EA90D3623FC912600DE3936 /* numberViewController.swift in Sources */,
 				7EA90D0623FC8F4700DE3936 /* AppDelegate.swift in Sources */,
 				7EA90D0823FC8F4700DE3936 /* SceneDelegate.swift in Sources */,
