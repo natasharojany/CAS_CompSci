@@ -15,48 +15,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhC-My-QXV">
-                                <rect key="frame" x="0.0" y="88" width="414" height="258"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Easy"/>
-                                <connections>
-                                    <action selector="easyButton:" destination="vVq-cq-evv" eventType="touchUpInside" id="2pr-SD-9RM"/>
-                                    <segue destination="Fry-k2-xli" kind="show" id="7Gl-fC-xQh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBV-jj-XJf">
-                                <rect key="frame" x="0.0" y="346" width="414" height="258"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Medium"/>
+                                <rect key="frame" x="0.0" y="475" width="414" height="193.5"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <state key="normal" title="Medium">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="Fry-k2-xli" kind="show" id="JI6-Js-iI1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zag-KH-art">
-                                <rect key="frame" x="0.0" y="604" width="414" height="258"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Hard"/>
+                                <rect key="frame" x="0.0" y="668.5" width="414" height="193.5"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <state key="normal" title="Hard">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="Fry-k2-xli" kind="show" id="k7e-Bc-1Yz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Guesser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ke4-gC-NEL">
+                                <rect key="frame" x="0.0" y="88" width="414" height="193.5"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhC-My-QXV">
+                                <rect key="frame" x="0.0" y="281.5" width="414" height="193.5"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <state key="normal" title="Easy">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="easyButton:" destination="vVq-cq-evv" eventType="touchUpInside" id="sEc-Up-N6N"/>
+                                    <segue destination="Fry-k2-xli" kind="show" id="7Gl-fC-xQh"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.29803921568627451" green="0.52156862745098043" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="bhC-My-QXV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0GW-nX-n6K"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zag-KH-art" secondAttribute="trailing" id="2Wf-AV-KPV"/>
-                            <constraint firstItem="uBV-jj-XJf" firstAttribute="height" secondItem="bhC-My-QXV" secondAttribute="height" id="3Ng-KK-jAh"/>
-                            <constraint firstItem="uBV-jj-XJf" firstAttribute="width" secondItem="bhC-My-QXV" secondAttribute="width" id="4jR-vn-B5m"/>
-                            <constraint firstItem="bhC-My-QXV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AOZ-CS-ENM"/>
-                            <constraint firstItem="Zag-KH-art" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JNX-9u-ooO"/>
-                            <constraint firstItem="uBV-jj-XJf" firstAttribute="top" secondItem="bhC-My-QXV" secondAttribute="bottom" id="LPt-Bu-YnP"/>
-                            <constraint firstItem="Zag-KH-art" firstAttribute="top" secondItem="uBV-jj-XJf" secondAttribute="bottom" id="Ojd-1g-9fO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zag-KH-art" secondAttribute="bottom" id="Xtg-7h-Iq9"/>
-                            <constraint firstItem="Zag-KH-art" firstAttribute="width" secondItem="bhC-My-QXV" secondAttribute="width" id="eie-0w-duN"/>
-                            <constraint firstItem="Zag-KH-art" firstAttribute="height" secondItem="bhC-My-QXV" secondAttribute="height" id="jPt-Zi-9QG"/>
-                            <constraint firstItem="uBV-jj-XJf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kZJ-9i-F3g"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBV-jj-XJf" secondAttribute="trailing" id="qeS-ky-X01"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhC-My-QXV" secondAttribute="trailing" id="wqM-mh-KcB"/>
+                            <constraint firstItem="Ke4-gC-NEL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0In-43-bD8"/>
+                            <constraint firstItem="Ke4-gC-NEL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="88W-WJ-wuO"/>
+                            <constraint firstItem="bhC-My-QXV" firstAttribute="height" secondItem="Ke4-gC-NEL" secondAttribute="height" id="9QH-oU-Tmo"/>
+                            <constraint firstItem="bhC-My-QXV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Enr-hH-mri"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="height" secondItem="Ke4-gC-NEL" secondAttribute="height" id="FTS-0o-pKo"/>
+                            <constraint firstItem="uBV-jj-XJf" firstAttribute="width" secondItem="Ke4-gC-NEL" secondAttribute="width" id="GBc-AS-eg4"/>
+                            <constraint firstItem="bhC-My-QXV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HP0-Tz-D7h"/>
+                            <constraint firstItem="uBV-jj-XJf" firstAttribute="height" secondItem="Ke4-gC-NEL" secondAttribute="height" id="NQK-VS-wTB"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="top" secondItem="uBV-jj-XJf" secondAttribute="bottom" id="R0N-0d-iay"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="biV-6b-VII"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dyx-1T-VjV"/>
+                            <constraint firstItem="uBV-jj-XJf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gaw-z4-nQH"/>
+                            <constraint firstItem="bhC-My-QXV" firstAttribute="width" secondItem="Ke4-gC-NEL" secondAttribute="width" id="hGw-ea-hHD"/>
+                            <constraint firstItem="uBV-jj-XJf" firstAttribute="top" secondItem="bhC-My-QXV" secondAttribute="bottom" id="i0T-ba-IWn"/>
+                            <constraint firstItem="Ke4-gC-NEL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jU1-Nv-VbU"/>
+                            <constraint firstItem="bhC-My-QXV" firstAttribute="top" secondItem="Ke4-gC-NEL" secondAttribute="bottom" id="lmV-EA-hv4"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="width" secondItem="Ke4-gC-NEL" secondAttribute="width" id="sOC-w2-KIp"/>
+                            <constraint firstItem="Zag-KH-art" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sZB-eX-FpD"/>
+                            <constraint firstItem="uBV-jj-XJf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t3n-ri-i1Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -81,19 +98,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZ9-Ug-MPS">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="203" width="414" height="693"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v4q-oi-8CH">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="797"/>
+                                        <rect key="frame" x="0.0" y="-4" width="414" height="697"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="CXb-TE-jiW"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="XVb-E6-nBR"/>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess a number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1D-QY-uld">
+                                <rect key="frame" x="98" y="126" width="219" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.29803921570000003" green="0.52156862749999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="0E4-68-WAh"/>
                     </view>
                     <navigationItem key="navigationItem" id="imJ-Hl-RZj"/>
