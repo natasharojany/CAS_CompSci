@@ -38,7 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Gallery"/>
                                 <connections>
-                                    <segue destination="k4s-Tl-8qE" kind="show" id="ZxO-gj-YdY"/>
+                                    <segue destination="k4s-Tl-8qE" kind="show" id="MZG-AD-sSj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,7 +47,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Bg-oU-zvX"/>
                     <connections>
-                        <outlet property="galleryButton" destination="jqu-f9-e3I" id="lg7-39-Oez"/>
+                        <outlet property="galleryButton" destination="jqu-f9-e3I" id="bwc-zt-y10"/>
                         <outlet property="imageView" destination="BTL-Gg-TwJ" id="JzN-2i-Beg"/>
                     </connections>
                 </viewController>
@@ -80,9 +80,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Save captions"/>
-                                <connections>
-                                    <action selector="captionButton:" destination="k4s-Tl-8qE" eventType="touchUpInside" id="mME-IZ-iaK"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -90,7 +87,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="HFQ-Jn-Ibx"/>
                     <connections>
-                        <outlet property="captionButton" destination="fMj-xe-895" id="sO0-CR-K9j"/>
                         <outlet property="scrollView" destination="pKX-M5-O9A" id="vMz-iG-zgw"/>
                         <outlet property="stackView" destination="5Xf-XD-uJp" id="K2G-MD-gtp"/>
                     </connections>
